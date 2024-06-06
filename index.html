@@ -300,8 +300,9 @@
             <span class="menu__detail">Berat Bersih 40gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'PALA', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a  onclick="showForm(event, 'PALA', '5000')" class="button menu__button__left" 
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
     
           <!-- =========== MENU 2 ==================== -->
@@ -311,8 +312,10 @@
             <span class="menu__detail">Berat Bersih 40gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Asam Potong', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'ASAM POTONG', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
+          
           </div>
         
         <!-- =========== MENU 3 ==================== -->
@@ -323,10 +326,11 @@
             <span class="menu__preci">Rp 5.000</span>
             
             
-            <button onclick="showForm(event, 'Lada Hitam', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'LADA HITAM', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
+          
           </div>
-
           <!-- =========== MENU 4 ==================== -->
           <div class="menu__content">
             <img src="assets/img/kayu_manis.png" alt="" class="menu__img" />
@@ -334,10 +338,11 @@
             <span class="menu__detail">Berat Bersih 35gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Kayu Manis', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'KAYU MANIS', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
+          
           </div>
-
           <!-- =========== MENU 5 ==================== -->
           <div class="menu__content">
             <img src="assets/img/cabai-kering.png" alt="" class="menu__img" />
@@ -345,10 +350,10 @@
             <span class="menu__detail">Berat Bersih 30gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Cabai Kering', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'CABAI KERING', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
-
           <!-- =========== MENU 6 ==================== -->
           <div class="menu__content">
             <img src="assets/img/ketumbar.png" alt="" class="menu__img" />
@@ -356,8 +361,9 @@
             <span class="menu__detail">Berat Bersi 70gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Ketumbar', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'KETUMBAR', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
 
           <!-- =========== MENU 7 ==================== -->
@@ -367,8 +373,9 @@
             <span class="menu__detail">Berat Bersih 20gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-             <button onclick="showForm(event, 'Bubuk Bawang Putih', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'Bawang Putih', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
 
           <!-- =========== MENU 8 ==================== -->
@@ -378,8 +385,9 @@
             <span class="menu__detail">Berat Bersih 50gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Kemiri', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'KEMIRI', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
 
           <!-- =========== MENU 9 ==================== -->
@@ -389,8 +397,9 @@
             <span class="menu__detail">Berat Bersih 20gr</span>
             <span class="menu__preci">Rp 5.000</span>
             
-            <button onclick="showForm(event, 'Cengkeh', '5000')" class="button menu__button__left" 
-              >BELI</button> 
+            <a onclick="showForm(event, 'CENGKEH', '5000')" class="button menu__button__left"
+              ><i class="bx bx-chevron-right"></i
+            ></a>
           </div>
 
 
@@ -420,7 +429,7 @@
             <label for="tanggal">Tanggal Pengiriman:</label>
             <input type="date" id="tanggal" name="tanggal" required /><br /><br />
             <label for="total">Total Harga:</label>
-            <input type="text" id="total" name="total" readonly /><br /><br>
+            <input type="text" id="total" name="total" readonly /><br /><br />
             <input type="hidden" id="hargaPerKg" name="hargaPerKg" />
             <button type="submit">Kirim Pesan whatsapp<i class="bx bxl-whatsapp"></i
               ></button>
@@ -497,11 +506,11 @@
       <section class="contact section bd-container" id="contact">
         <div class="contact__container bd-grid">
           <div class="contact__data">
-            <span class="section-subtitle contact__initial">KONTAK</span>
+            <span class="section-subtitle contact__initial">Let's talk</span>
             <h2 class="section-title contact__initial">Hubungi Kami</h2>
             <p class="contact__description">
               Untuk informasi lebih lanjut dan pemesanan, anda dapat menghubungi social media kami di bawah ini<br> </p>
-              <a href="https://www.instagram.com/herarempah?igsh=MjB0eGI4Z3A3Y3g3" class="footer__social"
+              <a href="https://www.instagram.com/agusirfannn?igsh=MWp1Z2dvaHVxbzRpYQ==" class="footer__social"
               ><i class="bx bxl-instagram"></i
             ></a>
             <a href="mailto:whera097@gmail.com?" class="footer__social"
@@ -520,11 +529,11 @@
              </ul>
           </div>
 
-         <!-- <div class="contact__button">
+          <!-- <div class="contact__button">
             <a href="#" class="button" id="toggle-map">Tampilkan Maps</a>
           </div>
-          <div id="map-container"></div> -->
-          
+          <div id="map-container"></div>
+           -->
         </div>
       </div>
       </section>

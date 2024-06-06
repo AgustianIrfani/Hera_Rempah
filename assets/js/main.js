@@ -130,14 +130,14 @@ function formatRupiah(angka, prefix) {
 
 document.addEventListener("click", function (event) {
   var form = document.getElementById("orderForm");
-  if (!form.contains(event.target) && event.target.tagName !== "BUTTON") {
+  if (!form.contains(event.target) && event.target.tagName !== "A") {
     form.style.display = "none";
   }
 });
 
 document.addEventListener("click", function (event) {
   var form = document.getElementById("orderForm");
-  if (!form.contains(event.target) && event.target.tagName !== "BUTTON") {
+  if (!form.contains(event.target) && event.target.tagName !== "A") {
     form.style.display = "none";
   }
 });
@@ -155,7 +155,7 @@ function showMap(event) {
     toggleMapLink.textContent = "Sembunyikan Maps"; // Ganti teks link
     // Tambahkan kode untuk menampilkan maps menggunakan iframe embed dari Google Maps
     mapContainer.innerHTML =
-      '<iframe src="https://maps.app.goo.gl/VeG9HtM3F99X1qb76" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.490092503861!2d106.82412481476822!3d-6.211546395502046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7c1592b76e39c3%3A0x56c47746a3ad4b98!2sMonumen%20Nasional%20(Monas)!5e0!3m2!1sen!2sid!4v1649263303583!5m2!1sen!2sid" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
     mapVisible = true;
   } else {
     mapContainer.style.display = "none";
