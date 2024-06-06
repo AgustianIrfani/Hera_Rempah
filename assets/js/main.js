@@ -155,7 +155,7 @@ function showMap(event) {
     toggleMapLink.textContent = "Sembunyikan Maps"; // Ganti teks link
     // Tambahkan kode untuk menampilkan maps menggunakan iframe embed dari Google Maps
     mapContainer.innerHTML =
-      '<iframe src="https://maps.app.goo.gl/mqnNYEU5aCE16kyt9" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+      '<iframe src="https://maps.app.goo.gl/VeG9HtM3F99X1qb76" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
     mapVisible = true;
   } else {
     mapContainer.style.display = "none";
