@@ -130,14 +130,14 @@ function formatRupiah(angka, prefix) {
 
 document.addEventListener("click", function (event) {
   var form = document.getElementById("orderForm");
-  if (!form.contains(event.target) && event.target.tagName !== "A") {
+  if (!form.contains(event.target) && event.target.tagName !== "BUTTON") {
     form.style.display = "none";
   }
 });
 
 document.addEventListener("click", function (event) {
   var form = document.getElementById("orderForm");
-  if (!form.contains(event.target) && event.target.tagName !== "A") {
+  if (!form.contains(event.target) && event.target.tagName !== "BUTTON") {
     form.style.display = "none";
   }
 });
